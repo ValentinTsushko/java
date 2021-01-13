@@ -1,5 +1,7 @@
 package plus;
 
+import last.*;
+
 public class Plus{
 	double a = 0;
 	double b = 0;
@@ -27,3 +29,5 @@ public class Plus{
 		this.c = a + b;
 	}
 }
+
+//java.util.Scanner in = new java.util.Scanner(System.in);
