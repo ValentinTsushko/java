@@ -1,4 +1,5 @@
 package plus;
+import last.*;
 
 public class Plus_menu{
 	public void start_Plus(last last_operation){
