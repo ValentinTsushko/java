@@ -1,7 +1,7 @@
-import java.util.*;
+import java.util.ArrayDeque;
 
 public class last{
-	
+	/*
 	ArrayList last = new ArrayList();
 	//last.add(new Double(0));
 	
@@ -11,12 +11,29 @@ public class last{
 	void view(){
 		System.out.println(last);
 	}
+	*/
+	
+	ArrayDeque<Double> last = new ArrayDeque<Double>();
+	
+	public void add_last(double x){
+		last.addLast(x);
+	}
+	public void view(){
+		int j = 0;
+		for(double i : last)
+			System.out.println(++j + ")  " + i);
+	}
 	
 	/*
-	ArrayDeque<Double> last = ArrayDeque<Double>();
+	Deque<Double> last;
+	last.add(0);
 	
-	void add_last(double x){
-		last.addLast(x);
+	public void add_last(double x){
+		last.add(x);
+	}
+	public void view(){
+		for(double i : last)
+			System.out.println(last);
 	}
 	*/
 }
